@@ -5,22 +5,22 @@ function Photos() {
     <div>
       <div className='work_gallery'>
            <div className='work_items'>
-           <img src='/public/Images/Central-Kalahari-Game-Reserve-Botswana.jpg' />
+           <img src='/Images/Central-Kalahari-Game-Reserve-Botswana.jpg' />
        </div>
        <div className='work_items'>
-           <img src='/public/Images/Denali-National-Park-Preserve-Alaska.jpg' />
+           <img src='/Images/Denali-National-Park-Preserve-Alaska.jpg' />
        </div>
        <div className='work_items'>
-           <img src='/public/Images/Galapagos-Islands-Ecuador.jpg' />
+           <img src='/Images/Galapagos-Islands-Ecuador.jpg' />
        </div>
        <div className='work_items'>
-           <img src='/public/Images/Masai-mara-Kenya-.jpg' />
+           <img src='/Images/Masai-mara-Kenya-.jpg' />
        </div>
        <div className='work_items'>
-           <img src='/public/Images/Nantucket-National-Wildlife-Refuge-United-States.jpg' />
+           <img src='/Images/Nantucket-National-Wildlife-Refuge-United-States.jpg' />
        </div>
        <div className='work_items'>
-           <img src='/public/Images/Pantanal-Brazil.jpg' />
+           <img src='/Images/Pantanal-Brazil.jpg' />
        </div>
        </div>
     </div>

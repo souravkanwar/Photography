@@ -39,8 +39,8 @@ function About() {
 
                     responsive={responsive}>
                         
-                    <div><img src='/public/Images/Galapagos-Islands-Ecuador.jpg' /></div>
-                    <div><img src='/public/Images/Nantucket-National-Wildlife-Refuge-United-States.jpg' /></div>
+                    <div><img src='/Images/Galapagos-Islands-Ecuador.jpg' /></div>
+                    <div><img src='/Images/Nantucket-National-Wildlife-Refuge-United-States.jpg' /></div>
 
                 </Carousel>;
             

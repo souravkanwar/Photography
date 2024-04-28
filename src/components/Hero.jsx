@@ -54,13 +54,13 @@ function Hero() {
 
     responsive={responsive}>
       
-      <div><img src='public/Images/Masai-mara-Kenya-.jpg'/>
+      <div><img src='/Images/Masai-mara-Kenya-.jpg'/>
       <div className='hero_text'>
         <p>Photography For <br/>Adventurous Souls &<br/> Rebels At Heart</p>
         <button>Read More</button>
       </div>
       </div>
-      <div><img src='public/Images/Nantucket-National-Wildlife-Refuge-United-States.jpg'/>
+      <div><img src='/Images/Nantucket-National-Wildlife-Refuge-United-States.jpg'/>
       <div className='hero_text'>
         <p>Photography For <br/>Adventurous Souls &<br/> Rebels At Heart</p>
         <button>Read More</button>

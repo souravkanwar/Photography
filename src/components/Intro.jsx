@@ -4,7 +4,7 @@ function Intro() {
     return (
         <div className='intro_design'>
             <div className='intro_design_img'>
-                <img src='/public/Images/IMG.jpg' alt='phone' />
+                <img src='/Images/IMG.jpg' alt='phone' />
             </div>
             <div className='intro_design_inner'>
                 <h2>Welcome Friends,<br /> My Name is<br/> Sourav Kanwar</h2>

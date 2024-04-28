@@ -7,7 +7,6 @@ function Animals() {
           // the naming can be any, depends on you.
           breakpoint: { max: 4000, min: 3000 },
           items: 5
-        },
         desktop: {
           breakpoint: { max: 3000, min: 1024 },
           items: 3
@@ -30,12 +29,12 @@ function Animals() {
       swipeable={true}
       responsive={responsive}>
         
-        <div className='animal_inner'><img src='/public/Images/Central-Kalahari-Game-Reserve-Botswana.jpg'/></div>
-        <div className='animal_inner'><img src='/public/Images/Denali-National-Park-Preserve-Alaska.jpg'/></div>
-        <div className='animal_inner'><img src='/public/Images/Galapagos-Islands-Ecuador.jpg'/></div>
-        <div className='animal_inner'><img src='/public/Images/Nantucket-National-Wildlife-Refuge-United-States.jpg'/></div>
-        <div className='animal_inner'><img src='/public/Images/Masai-mara-Kenya-.jpg'/></div>
-        <div className='animal_inner'><img src='/public/Images/Pantanal-Brazil.jpg'/></div>
+        <div className='animal_inner'><img src='/Images/Central-Kalahari-Game-Reserve-Botswana.jpg'/></div>
+        <div className='animal_inner'><img src='/Images/Denali-National-Park-Preserve-Alaska.jpg'/></div>
+        <div className='animal_inner'><img src='/Images/Galapagos-Islands-Ecuador.jpg'/></div>
+        <div className='animal_inner'><img src='/Images/Nantucket-National-Wildlife-Refuge-United-States.jpg'/></div>
+        <div className='animal_inner'><img src='/Images/Masai-mara-Kenya-.jpg'/></div>
+        <div className='animal_inner'><img src='/Images/Pantanal-Brazil.jpg'/></div>
       </Carousel>;
     </div>
     
