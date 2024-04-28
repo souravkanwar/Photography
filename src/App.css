@@ -1,0 +1,146 @@
+body{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  position:fixed;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  backface-visibility: visible;
+  color: white;
+  
+}
+.header ul {
+  display: flex;
+  
+}
+
+.header ul li {
+  list-style: none;
+  padding: 1rem;
+}
+.hero{
+  width: 100%;
+  background-position: center;
+}
+.hero img{
+  width: 100%;
+  background-size: cover;
+}
+.hero_text{
+  font-size: 3rem;
+  font-family: sans-serif;
+  position:absolute;
+  top: 450px;
+  left: 150px;
+  color: black;
+}
+.hero_text button{
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.work_gallery{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+.work_items{
+  padding: 1rem;
+}
+.work_items img{
+  width: 100%;
+}
+.about_design{
+  display: grid;
+  grid-template-columns: 50%  50%;
+ background-color: white;
+ padding: 5rem;
+} 
+.about_design_inner{
+  justify-content: center;
+}
+.about_design img{
+  width: 100%;
+  
+}
+.poster {
+  position: relative;
+}
+
+.poster img {
+  width: 100%;
+}
+
+.test {
+  position:absolute;
+  top: 50%;
+  left: 40%;
+}
+.test p {
+  color: black;
+  font-size: 40px;
+  text-align: center;
+}
+.text{
+  text-align: center;
+}
+.text_inner{
+  font-family: cursive;
+}
+.text_inner button{
+  padding: 1rem 2rem 1rem 2rem ;
+  border-radius: 10px;
+  border: none;
+  margin-top: 40px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+.animal img{
+  height: 310px;
+width: 100%;
+}
+.animal_inner{
+  padding: 0.5rem;
+}
+.quote{
+  text-align: center;
+}
+.quote p{
+  font-family: cursive;
+  font-size: 40px;
+}
+.intro_design{
+display: grid;
+grid-template-columns: 50% 50%;
+
+}
+.intro_design_inner{
+ padding-left: 2rem;
+ font-family: cursive;
+
+}
+.intro_design_inner h2{
+font-size: 40px;
+}
+.intro_design_inner p{
+font-size: 20px;
+justify-content: center;
+}
+.intro_design_inner button{
+  padding: 1rem 2rem 1rem 2rem ;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background-color: black;
+  cursor: pointer; 
+}
+.intro_design img{
+  height:min-content;
+  width: 100%;
+}
